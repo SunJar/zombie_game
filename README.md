@@ -17,8 +17,6 @@ zombie_game/
 └── README.md      <- this file
 ```
 
-I split it into files because my professor said to use multiple files. Each class gets its own .h (header) and .cpp (implementation) file. The header says what exists, the .cpp says how it works.
-
 ---
 
 ## What Each File Does
@@ -130,26 +128,5 @@ g++ main.cpp Player.cpp Zombie.cpp Game.cpp -o zombie_game.exe
 zombie_game.exe
 ```
 
----
 
-## Tips
-
-- Zombies spawn faster over time - don't stand still!
-- Use Q and E to turn and face the zombies before shooting
-- The radar at the bottom shows how many zombies are close and how far
-- You can type commands quickly if multiple zombies are swarming
-
----
-
-## Known Issues / Things I'd Improve
-
-- The game is turn-based not real-time - a proper game would use ncurses or SDL for real keyboard input
-- Damage per frame is a bit weird since it's tied to turn speed
-- No sound obviously
-- The "3D" is really just X and Z coordinates, there's no actual rendering
-- Could add walls/obstacles to make it more interesting
-- Could add different zombie types with different speeds
-
----
-
-*Made for CS intro course. This is my first C++ project after learning Python.*
+*This is my first C++ project after learning Python.*
